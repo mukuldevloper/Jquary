@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>    
+    <!-- <style>
+
+        #ansh1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 20px;
+            display: none;
+        }
+        #ansh2{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            margin: 20px;
+            display: none;
+        }
+        #ansh3{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 20px;
+            display: none;
+        }
+    </style> -->
+</head>
+<body>
+    
+    <div id="ansh1">Lorem ipsum dolor, sit amet consectetur adipisicing </div>
+    <!-- <div id="ansh2"></div>
+    <div id="ansh3"></div> -->
+    
+<button>toggle</button>
+    <script>
+
+      $(document).ready(function(){
+          $("button").click(function(){
+            $("#ansh1").fadeToggle(5000);
+          })
+      });
+    </script>
+</body>
+</html>
